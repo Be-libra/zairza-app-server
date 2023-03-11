@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Session = require('../models/Session');
+const Session = require('../models/session');
 
 router.post('/sessions', async (req, res) => {
     try {
